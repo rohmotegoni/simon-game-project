@@ -1,0 +1,47 @@
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+body {
+    text-align: center;
+}
+.box {
+    height: 304px;
+    width: 304px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px; /* Space between the grid items */
+}
+.childbox {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* To make the text inside visible */
+    border-radius: 25px;
+    background-color: white;
+    border: 6px solid black;
+}
+.red {
+    background-color: #f72585;
+}
+.green {
+    background-color: #0a9396;
+}
+.yellow {
+    background-color: #fca311;
+}
+.blue {
+    background-color: #4895ef;
+}
+.flash {
+    background-color: white;
+}
+.user {
+    background-color: green;
+}
